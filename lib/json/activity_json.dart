@@ -1,5 +1,5 @@
 const List items = [
-  {"title": "Transfer", "icon": ""},
-  {"title": "My Card", "icon": ""},
-  {"title": "Insight", "icon": ""},
+  {"title": "Transfer", "icon": "assets/images/message.png"},
+  {"title": "My Card", "icon": "assets/images/credit-card.png"},
+  {"title": "Insight", "icon": "assets/images/message.png"},
 ];

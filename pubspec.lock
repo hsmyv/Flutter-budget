@@ -49,6 +49,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.18.0"
+  community_material_icon:
+    dependency: "direct main"
+    description:
+      name: community_material_icon
+      sha256: bb389689f6278158d7b9d9b0c9433e603933283104fea226594590f61503fd08
+      url: "https://pub.dev"
+    source: hosted
+    version: "5.9.55"
   cupertino_icons:
     dependency: "direct main"
     description:
@@ -94,6 +102,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.0"
+  flutter_icon_data:
+    dependency: "direct main"
+    description:
+      name: flutter_icon_data
+      sha256: "5353e1f459638c79f037535b628a1980c2d2334e6b5d508c159a64e148213483"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.0.3"
   flutter_lints:
     dependency: "direct dev"
     description:
