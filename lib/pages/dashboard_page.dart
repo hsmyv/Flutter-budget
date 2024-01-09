@@ -1,10 +1,10 @@
 import 'package:budget/json/activity_json.dart';
+import 'package:budget/pages/promo.dart';
 import 'package:budget/pages/your_balance_page.dart';
 import 'package:budget/theme/colors.dart';
 import 'package:community_material_icon/community_material_icon.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_custom_clippers/flutter_custom_clippers.dart';
-import 'package:flutter_icon_data/flutter_icon_data.dart';
 
 class DashboardPage extends StatefulWidget {
   const DashboardPage({super.key});
@@ -570,12 +570,18 @@ class _DashboardPageState extends State<DashboardPage> {
                     SizedBox(
                       height: 12,
                     ),
-                    Text(
-                      "Invite Now",
-                      style: TextStyle(
-                          fontSize: 15,
-                          color: primary,
-                          fontWeight: FontWeight.w600),
+                    GestureDetector(
+                      onTap: () {
+                        Navigator.push(context,
+                            MaterialPageRoute(builder: (_) => Promo()));
+                      },
+                      child: Text(
+                        "Invite Now",
+                        style: TextStyle(
+                            fontSize: 15,
+                            color: primary,
+                            fontWeight: FontWeight.w600),
+                      ),
                     ),
                   ],
                 ),

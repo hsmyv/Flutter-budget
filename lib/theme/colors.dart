@@ -5,3 +5,4 @@ const Color secondary = Color(0xFFAC7EF8);
 const Color black = Color(0xFF000000);
 const Color white = Color(0xFFFFFFFF);
 const Color bgColor = Color(0xFFF8F8F9);
+const Color red = Color.fromARGB(255, 255, 0, 0);
